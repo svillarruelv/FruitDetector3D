@@ -1,2 +1,2 @@
-# FruitDetector3000
+# FruitDetector3D
 Topics: Graphic Computer, Image processing , Artificial Intelligence
