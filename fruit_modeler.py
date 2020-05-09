@@ -53,13 +53,16 @@ def render(fruit):
     tx, ty = (0,0)
     zpos = 5
     rotate = move = False
-    while 1:
+    running = 1
+    while running:
         clock.tick(30)
         for e in pygame.event.get():
             if e.type == QUIT:
-                sys.exit()
+                running = False
+           
             elif e.type == KEYDOWN and e.key == K_ESCAPE:
-                sys.exit()
+                running = False
+          
             elif e.type == MOUSEBUTTONDOWN:
                 if e.button == 4: zpos = max(1, zpos-1)
                 elif e.button == 5: zpos += 1
