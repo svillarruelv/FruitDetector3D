@@ -29,6 +29,7 @@ Referencias:
 
 Paper Reconocimiento de comida:
 * https://arxiv.org/pdf/1612.00983v2.pdf
+
 Repositorio Reconocimiento de comida:
 * https://github.com/TetsumichiUmada/food_app
 
