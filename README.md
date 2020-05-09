@@ -1,10 +1,10 @@
 # FruitDetector3D
 Topics: Graphic Computer, Image processing , Artificial Intelligence
 
-Autores:
--Sergio Villarruel
--Franco Moloche
--Daniel Nuñez
+##Autores:
+* Sergio Villarruel
+* Franco Moloche
+* Daniel Nuñez
 
 Librerias usadas:
 
