@@ -60,7 +60,7 @@ while(1):
     path =fd.askopenfilename()
     app.destroy()
     try:
-        pred = predict_image(path, plot=1)
+        pred = predict_image(path)
         render(pred)
     except:
         break
