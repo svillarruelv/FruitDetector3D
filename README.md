@@ -28,9 +28,9 @@ Link a video de Youtube: https://www.youtube.com/watch?v=R5fBtq2Q8Iw&feature=you
 Referencias:
 
 Paper Reconocimiento de comida:
-https://arxiv.org/pdf/1612.00983v2.pdf
+* https://arxiv.org/pdf/1612.00983v2.pdf
 Repositorio Reconocimiento de comida:
-https://github.com/TetsumichiUmada/food_app
+* https://github.com/TetsumichiUmada/food_app
 
 Script para leer archivos .obj:
-https://github.com/yarolig/OBJFileLoader/tree/master/OBJFileLoader
+* https://github.com/yarolig/OBJFileLoader/tree/master/OBJFileLoader
