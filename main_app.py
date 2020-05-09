@@ -1,15 +1,12 @@
-# In[1]:
-
 from keras.models import load_model
 import numpy as np
 import random
 import matplotlib.pyplot as plt
 from keras.metrics import top_k_categorical_accuracy
 import cv2
-
-
-# In[2]:
-
+from tkinter import *
+from tkinter import filedialog as fd
+from fruit_modeler import render
 
 def preProcImg(img):
     r,c,x = img.shape
@@ -35,15 +32,11 @@ classes = ["cereza", "durazno", "fresa",
  "manzana", "maracuya", "naranja",
  "palta", "pera", "piña", "sandia"
  ]
-model_file = "epoch#3 weights.best.InceptionV3_final_model.hdf5"
+model_file = "classifier/epoch#3 weights.best.InceptionV3_final_model.hdf5"
 loaded_model = load_model(model_file, custom_objects={"top_5_accuracy": top_5_accuracy})
 
-
-# In[3]:
-
-
 def predict_image(path, plot=False):
-    img = cv2.imread("test.jpg")
+    img = cv2.imread(path)
     img = cv2.cvtColor(img, cv2.COLOR_BGR2RGB)
     img = preProcImg(img)
     prediction = loaded_model.predict(np.array([img]))[0]
@@ -56,19 +49,18 @@ def predict_image(path, plot=False):
         
         plt.subplot(1,2,2)
         plt.imshow(img)
-        
+        print("Predicción lista")
         plt.show()
     return classes[np.argmax(prediction)]
 
 
-# In[4]:
-
-
-predict_image("test.jpg")
-
-
-# In[5]:
-
-
-predict_image("test.jpg", plot=1)
-
+while(1):
+    app = Tk()
+    app.withdraw()
+    path =fd.askopenfilename()
+    app.destroy()
+    try:
+        pred = predict_image(path, plot=1)
+        render(pred)
+    except:
+        break
