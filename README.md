@@ -19,7 +19,9 @@ Topics: Graphic Computer, Image processing , Artificial Intelligence
 * opencv
 * sklearn
 
-Para poder usar la aplicación se debe descargar el modelo en la carpeta classifier, el enlace se encuentra debajo de este parrafo, despues se debe ejecutar todo el archivo main_app.py
+Este proyecto ha sido ejecutado usando la versión de Python 3.7.4
+
+Para poder usar la aplicación se deben tener instaladas las librerias mencionadas, descargar el modelo en la carpeta classifier, el enlace se encuentra debajo de este parrafo, despues se debe ejecutar todo el archivo main_app.py
 
 Link del modelo: https://drive.google.com/file/d/1Y5k6BVyYXfh-c4xkLr44icwLEMnNj6jv/view?usp=sharing
 
