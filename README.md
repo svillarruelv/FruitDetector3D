@@ -23,6 +23,8 @@ Para poder usar la aplicación se debe descargar el modelo en la carpeta classif
 
 Link del modelo: https://drive.google.com/file/d/1Y5k6BVyYXfh-c4xkLr44icwLEMnNj6jv/view?usp=sharing
 
+Documento LaTex:  https://www.overleaf.com/read/drbnyxhbdprj
+
 Link a video de Youtube: https://www.youtube.com/watch?v=R5fBtq2Q8Iw&feature=youtu.be
 
 Referencias:
