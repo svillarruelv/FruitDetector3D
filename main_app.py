@@ -52,8 +52,6 @@ def predict_image(path, plot=False):
         print("Predicción lista")
         plt.show()
     return classes[np.argmax(prediction)]
-
-
 while(1):
     app = Tk()
     app.withdraw()
